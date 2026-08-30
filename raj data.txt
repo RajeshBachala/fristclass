@@ -1,0 +1,13 @@
+private int id;
+    private String desc;
+    private String brand;
+    private BigDecimal price;
+    private String category;
+    private Date releaseDate;
+    private boolean available;
+INSERT INTO product (available, brand, category, desc, price, release_date) 
+VALUES 
+(TRUE, 'TechCorp', 'Electronics', 'Wireless Noise Cancelling Headphones', 199.99, '2025-01-15'),
+(TRUE, 'FitLife', 'Wearables', 'Smart Fitness Tracker Watch', 89.50, '2025-02-10'),
+(FALSE, 'SoundPro', 'Audio', 'Bluetooth Portable Speaker', 45.00, '2024-11-20'),
+(TRUE, 'ElectroLux', 'Appliances', 'Smart Coffee Maker', 120.00, '2025-02-01');
